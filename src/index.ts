@@ -19,6 +19,6 @@ const port = process.env.PORT || 3000;
 server.listen(port, () => {
   console.log(`Server is running on port ${port}`);
   console.log(
-    `Open your http://localhost:${port}/6/api/listings/3?sort=desc&limit=10 and test this url parser`
+    `To test the URL parser, open your web browser and navigate to http://localhost:${port}/6/api/listings/3?sort=desc&limit=10`
   );
 });
